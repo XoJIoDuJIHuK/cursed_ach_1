@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Имя файла: catalogue.xml -->
+<APE name="ape">
+	<AUTO name="auto">
+		<NAME name="qwe" value="991 Turbo">991 Turbo</NAME>
+		<DESC>эта хуйня не работает</DESC>
+		<IMG>auto_1.png</IMG>
+		<PRICE>$209 806</PRICE>
+		<SPEED>320 км/ч</SPEED>
+		<POWER>580 л.с</POWER>
+		<MOMENT>750 Н*м</MOMENT>
+		<VOLUME>67 л</VOLUME>
+		<POPULARITY>1</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>911 Carrera S</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$137 261</PRICE>
+		<SPEED>308 км/ч</SPEED>
+		<POWER>450 л.с</POWER>
+		<MOMENT>530 Н*м</MOMENT>
+		<VOLUME>64 л</VOLUME>
+		<POPULARITY>2</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>911 Carrera GTS Cabriolet</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$171 218</PRICE>
+		<SPEED>309 км/ч</SPEED>
+		<POWER>480 л.с</POWER>
+		<MOMENT>570 Н*м</MOMENT>
+		<VOLUME>64 л</VOLUME>
+		<POPULARITY>3</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Cayenne</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$87 318</PRICE>
+		<SPEED>245 км/ч</SPEED>
+		<POWER>340 л.с</POWER>
+		<MOMENT>450 Н*м</MOMENT>
+		<VOLUME>75 л</VOLUME>
+		<POPULARITY>4</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Cayenne E-Hybrid</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$102 863</PRICE>
+		<SPEED>253 км/ч</SPEED>
+		<POWER>340 л.с</POWER>
+		<MOMENT>450 Н*м</MOMENT>
+		<VOLUME>75 л</VOLUME>
+		<POPULARITY>5</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Cayenne S</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$105 840</PRICE>
+		<SPEED>265 км/ч</SPEED>
+		<POWER>440 л.с</POWER>
+		<MOMENT>550 Н*м</MOMENT>
+		<VOLUME>75 л</VOLUME>
+		<POPULARITY>6</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Panamera</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$102 092</PRICE>
+		<SPEED>270 км/ч</SPEED>
+		<POWER>330 л.с</POWER>
+		<MOMENT>500 Н*м</MOMENT>
+		<VOLUME>80 л</VOLUME>
+		<POPULARITY>7</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Panamera 4 Platinum Edition</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$116 061</PRICE>
+		<SPEED>268 км/ч</SPEED>
+		<POWER>500 л.с</POWER>
+		<MOMENT>490 Н*м</MOMENT>
+		<VOLUME>80 л</VOLUME>
+		<POPULARITY>8</POPULARITY>
+	</AUTO>
+	<AUTO>
+		<NAME>Panamera 4S</NAME>
+		<DESC></DESC>
+		<IMG_PATH></IMG_PATH>
+		<PRICE>$127 339</PRICE>
+		<SPEED>295 км/ч</SPEED>
+		<POWER>440 л.с</POWER>
+		<MOMENT>550 Н*м</MOMENT>
+		<VOLUME>75 л</VOLUME>
+		<POPULARITY>9</POPULARITY>
+	</AUTO>
+</APE>
