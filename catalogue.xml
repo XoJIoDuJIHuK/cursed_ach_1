@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Имя файла: catalogue.xml -->
+<APE>
+<AUTO>
+  <NAME>991 Turbo</NAME>
+  <MODEL>991</MODEL>
+  <DESC>Совершенный, но при этом комфортабельный и практичный спорткар</DESC>
+  <IMG_PATH>auto_1</IMG_PATH>
+  <PRICE>$209 806</PRICE>
+  <SPEED>320 км/ч</SPEED>
+  <POWER>580 л.с</POWER>
+  <MOMENT>750 Н*м</MOMENT>
+  <VOLUME>67 л</VOLUME>
+  <ACCELERATION>2,8с</ACCELERATION>
+  <UTILIZATION>11,5л/100км</UTILIZATION>
+  <EMISSION>263г/км</EMISSION>
+  <HEIGHT>1303мм</HEIGHT>
+  <WEIGHT>1715кг</WEIGHT>
+  <ID>1</ID>
+</AUTO>
+<AUTO>
+  <NAME>911 Carrera S</NAME>
+  <MODEL>991</MODEL>
+  <DESC>Привлекающий к себе внимание эффектный внешний вид и впечатляющая динамика</DESC>
+  <IMG_PATH>auto_2</IMG_PATH>
+  <PRICE>$137 261</PRICE>
+  <SPEED>308 км/ч</SPEED>
+  <POWER>450 л.с</POWER>
+  <MOMENT>530 Н*м</MOMENT>
+  <VOLUME>64 л</VOLUME>
+  <ACCELERATION>3,7с</ACCELERATION>
+  <UTILIZATION>9,5л/100км</UTILIZATION>
+  <EMISSION>216г/км</EMISSION>
+  <HEIGHT>1300мм</HEIGHT>
+  <WEIGHT>1590кг</WEIGHT>
+  <ID>2</ID>
+</AUTO>
+<AUTO>
+  <NAME>911 Carrera GTS Cabriolet</NAME>
+  <MODEL>991</MODEL>
+  <DESC>Неподвластный времени дизайн в современной интерпретации.</DESC>
+  <IMG_PATH>auto_3</IMG_PATH>
+  <PRICE>$171 218</PRICE>
+  <SPEED>309 км/ч</SPEED>
+  <POWER>480 л.с</POWER>
+  <MOMENT>570 Н*м</MOMENT>
+  <VOLUME>64 л</VOLUME>
+  <ACCELERATION>3,6с</ACCELERATION>
+  <UTILIZATION>10,2л/100км</UTILIZATION>
+  <EMISSION>233г/км</EMISSION>
+  <HEIGHT>1300мм</HEIGHT>
+  <WEIGHT>1690кг</WEIGHT>
+  <ID>3</ID>
+</AUTO>
+<AUTO>
+  <NAME>Cayenne</NAME>
+  <MODEL>Cayenne</MODEL>
+  <DESC>Сочетание традиций и современности: культовый Flyline и сплошная световая полоса</DESC>
+  <IMG_PATH>auto_4</IMG_PATH>
+  <PRICE>$87 318</PRICE>
+  <SPEED>245 км/ч</SPEED>
+  <POWER>340 л.с</POWER>
+  <MOMENT>450 Н*м</MOMENT>
+  <VOLUME>75 л</VOLUME>
+  <ACCELERATION>6,2с</ACCELERATION>
+  <UTILIZATION>9,2л/100км</UTILIZATION>
+  <EMISSION>209г/км</EMISSION>
+  <HEIGHT>1696мм</HEIGHT>
+  <WEIGHT>2060кг</WEIGHT>
+  <ID>4</ID>
+</AUTO>
+<AUTO>
+  <NAME>Cayenne E-Hybrid</NAME>
+  <MODEL>Cayenne</MODEL>
+  <DESC>Сочетание устойчивого развития с вызывающей восторг динамикой</DESC>
+  <IMG_PATH>auto_5</IMG_PATH>
+  <PRICE>$102 863</PRICE>
+  <SPEED>253 км/ч</SPEED>
+  <POWER>340 л.с</POWER>
+  <MOMENT>450 Н*м</MOMENT>
+  <VOLUME>75 л</VOLUME>
+  <ACCELERATION>5с</ACCELERATION>
+  <UTILIZATION>(3,2л+26,7кВт*ч)/100км</UTILIZATION>
+  <EMISSION>73г/км</EMISSION>
+  <HEIGHT>1696мм</HEIGHT>
+  <WEIGHT>2370кг</WEIGHT>
+  <ID>5</ID>
+</AUTO>
+<AUTO>
+  <NAME>Cayenne S</NAME>
+  <MODEL>Cayenne</MODEL>
+  <DESC>Разносторонний Cayenne S всегда позволит получить максимум восторга и спортивного азарта</DESC>
+  <IMG_PATH>auto_6</IMG_PATH>
+  <PRICE>$105 840</PRICE>
+  <SPEED>265 км/ч</SPEED>
+  <POWER>440 л.с</POWER>
+  <MOMENT>550 Н*м</MOMENT>
+  <VOLUME>75 л</VOLUME>
+  <ACCELERATION>5,2с</ACCELERATION>
+  <UTILIZATION>9,4л/100км</UTILIZATION>
+  <EMISSION>213г/км</EMISSION>
+  <HEIGHT>1969мм</HEIGHT>
+  <WEIGHT>2095кг</WEIGHT>
+  <ID>6</ID>
+</AUTO>
+<AUTO>
+  <NAME>Panamera</NAME>
+  <MODEL>Panamera</MODEL>
+  <DESC>Атлетичные, подтянутые силуэты автомобилей с четкими гранями и мощной “мускулатурой”</DESC>
+  <IMG_PATH>auto_7</IMG_PATH>
+  <PRICE>$102 092</PRICE>
+  <SPEED>270 км/ч</SPEED>
+  <POWER>330 л.с</POWER>
+  <MOMENT>500 Н*м</MOMENT>
+  <VOLUME>80 л</VOLUME>
+  <ACCELERATION>5,6с</ACCELERATION>
+  <UTILIZATION>9,2л/100км</UTILIZATION>
+  <EMISSION>209г/км</EMISSION>
+  <HEIGHT>1423мм</HEIGHT>
+  <WEIGHT>1960кг</WEIGHT>
+  <ID>7</ID>
+</AUTO>
+<AUTO>
+  <NAME>Panamera 4 Platinum</NAME>
+  <MODEL>Panamera</MODEL>
+  <DESC>Ярко выраженные формы боковин обращают внимание на “приталенность” и легкость.</DESC>
+  <IMG_PATH>auto_8</IMG_PATH>
+  <PRICE>$116 061</PRICE>
+  <SPEED>268 км/ч</SPEED>
+  <POWER>500 л.с</POWER>
+  <MOMENT>490 Н*м</MOMENT>
+  <VOLUME>80 л</VOLUME>
+  <ACCELERATION>5,6с</ACCELERATION>
+  <UTILIZATION>9,2л/100км</UTILIZATION>
+  <EMISSION>209г/км</EMISSION>
+  <HEIGHT>1423мм</HEIGHT>
+  <WEIGHT>1960кг</WEIGHT>
+  <ID>8</ID>
+</AUTO>
+<AUTO>
+  <NAME>Panamera 4S</NAME>
+  <MODEL>Panamera</MODEL>
+  <DESC>Спортивное авто для четверых? С впечатляющей динамикой и комфортом?</DESC>
+  <IMG_PATH>auto_9</IMG_PATH>
+  <PRICE>$127 339</PRICE>
+  <SPEED>295 км/ч</SPEED>
+  <POWER>440 л.с</POWER>
+  <MOMENT>550 Н*м</MOMENT>
+  <VOLUME>75 л</VOLUME>
+  <ACCELERATION>5,6с</ACCELERATION>
+  <UTILIZATION>9,2л/100км</UTILIZATION>
+  <EMISSION>209г/км</EMISSION>
+  <HEIGHT>1423мм</HEIGHT>
+  <WEIGHT>1960кг</WEIGHT>
+  <ID>9</ID>
+</AUTO>
+</APE>

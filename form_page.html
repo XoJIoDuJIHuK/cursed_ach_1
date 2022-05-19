@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,
+     initial-scale=1.0" />
+    <title>Оформление заказа</title>
+    <link href="icon.jpg" sizes="32x32" rel="icon">
+    <link href="styles/form.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <script src="header_footer.js"></script>
+    <script src="APE.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+
+    <div class="filler" id="form"></div>
+
+    <form>
+      <h2 id="select">Выберите модель<span> *</span></h2>
+      <select required>
+
+      </select>
+      <h2 id="email">E-mail<span> *</span></h2>
+      <input required type="email" placeholder="example@gmail.com" class="email">
+      <h2 id="name">Имя<span> *</span></h2>
+      <input required type="text" placeholder="Иван" class="name">
+      <h2 id="lastname">Фамилия<span> *</span></h2>
+      <input required type="text" placeholder="Иванов" class="lastname">
+      <h2 id="tel">Телефон<span> *</span></h2>
+      <input required type="tel" placeholder="+375123456789" class="tel">
+      <h2 id="comment">Комментарий</h2>
+      <textarea placeholder="" rows="3" cols="40" class="comment"></textarea>
+      <h3><span>*</span> - Обязательно для заполнения</h3>
+      <button class="form_button">
+        Отправить
+      </button>
+      <div class="form_text">
+        slave master
+        Информация, представленная на сайте, не является публичной
+        офертой. <br><br>Подробности о характеристиках и стоимости товара
+        Вам сообщат по телефону либо в электронном письме. <br><br>На
+        обработку заказа может потребоваться до трёх рабочих дней,
+        просим отнестись с пониманием.
+      </div>
+    </form>
+
+    <footer></footer>
+  </body>
+
+</html>
