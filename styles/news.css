@@ -1,0 +1,116 @@
+.news_block {
+  background-color: white;
+  width: 90vw;
+  margin: 1vw 5vw 0 5vw;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+}
+.news_block h1 {
+  width: 80vw;
+  margin: 0 5vw 0 5vw;
+  line-height: 5vw;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+.news_block img {
+  width: 80vw;
+  height: 45vw;
+  margin: 2vw 0 2vw 0;
+  background-size: 100%;
+}
+.news_block .meta {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  display: -ms-grid;
+  display: grid;
+  width: 80vw;
+  margin: 1vw 5vw 0 5vw;
+  font-size: 1.5vw;
+  color: #4e4e4e;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+.news_block .meta .author {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: left;
+}
+.news_block .meta .date_time {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  text-align: right;
+}
+.news_block .meta::before {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: #4e4e4e;
+  height: 0.15vw;
+  width: 80vw;
+  margin-top: -0.5vw;
+}
+.news_block .text {
+  font-size: 1.8vw;
+  width: 80vw;
+  margin: 2vw 5vw 2vw 5vw;
+}
+.news_block li {
+  margin-left: 2vw;
+}
+
+.news_block > img {
+  margin: 0 5vw 0 5vw;
+}
+
+@media (max-width: 400px) {
+  .news_block {
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .news_block .header, .news_block .img, .news_block img, .news_block .meta, .news_block .meta::before, .news_block .text {
+    width: 90vw;
+  }
+  .news_block .header {
+    line-height: 10vw;
+    font-size: 4vw;
+  }
+  .news_block .img, .news_block img {
+    height: 50vw;
+  }
+  .news_block .meta {
+    font-size: 3vw;
+  }
+  .news_block .text {
+    font-size: 3.6vw;
+  }
+}
+@media (min-width: 401px) and (max-width: 1000px) {
+  .news_block {
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .news_block .header, .news_block .img, .news_block img, .news_block .meta, .news_block .meta::before, .news_block .text {
+    width: 90vw;
+  }
+  .news_block .header {
+    line-height: 8vw;
+    font-size: 3.5vw;
+  }
+  .news_block .img, .news_block img {
+    height: 50vw;
+  }
+  .news_block .meta {
+    font-size: 2vw;
+  }
+  .news_block .text {
+    font-size: 2.4vw;
+  }
+}

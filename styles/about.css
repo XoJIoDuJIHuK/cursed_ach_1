@@ -1,0 +1,90 @@
+.main {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 90vw;
+  margin: 2vw 5vw 2vw 5vw;
+}
+.main ol {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.main ol li {
+  font-size: 1.8vw;
+}
+.main ol li p {
+  margin-left: 0;
+}
+.main ol .inner_list {
+  margin-left: 5vw;
+  list-style-type: disc;
+}
+.main ol li::marker, .main ol h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.main p {
+  font-size: 1.8vw;
+  width: 80vw;
+  margin: 2vw 5vw 2vw 5vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  text-align: justify;
+}
+.main p i {
+  font-size: 1.6vw;
+}
+.main h2 {
+  margin-left: 0;
+}
+.main .about_filler {
+  height: 2vw;
+}
+.main h1 {
+  margin-left: 5vw;
+  font-size: 6vw;
+}
+.main h1, .main h2 {
+  width: 80vw;
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+  .main {
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .main ol li {
+    font-size: 3vw;
+  }
+  .main p {
+    font-size: 3vw;
+    width: 90vw;
+  }
+  .main p i {
+    font-size: 2.5vw;
+  }
+  .main h1, .main h2 {
+    width: 90vw;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    width: 100vw;
+    margin: 0 0 0 0;
+  }
+  .main ol li {
+    font-size: 3vw;
+  }
+  .main p {
+    font-size: 3vw;
+    width: 90vw;
+  }
+  .main p i {
+    font-size: 2.5vw;
+  }
+  .main h1, .main h2 {
+    width: 90vw;
+  }
+}

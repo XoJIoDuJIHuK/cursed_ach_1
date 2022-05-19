@@ -1,0 +1,77 @@
+.auto_cards
+{
+    width: 100vw;
+    height: 82vw;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 33.333% 33.333% 33.333%;
+    margin-left: 0;
+    margin-right: 0;
+    .car_image
+    {
+        width: 50vw;
+        height: 23.81vw;
+    }
+    .car_name
+    {
+        height: 3vw;
+        line-height: 3vw;
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+    .car_desc
+    {
+        display: none;
+    }
+}
+
+h1
+{
+    margin-left: 0;
+}
+
+.news
+{
+    grid-template-rows: repeat(3, 56.25vw);
+    width: 100vw;
+    height: 168.75vw;
+    margin: 1vw 0 0 0;
+    .news1:hover > .shadow_block,
+    .news2:hover > .shadow_block,
+    .news3:hover > .shadow_block
+    {
+        margin-top: 11.25vw;
+    }
+    .news1
+    {
+        background-image: url(../img/news1.jpg);
+        grid-row: 1/2;
+    }
+    .news2
+    {
+        background-image: url(../img/news2.jpg);
+        grid-row: 2/3;
+    }
+    .news3
+    {
+        background-image: url(../img/news3.jpg);
+        grid-row: 3/4;
+    }
+    .news_title1, .news_title2
+    {
+        font-size: 3.6vw;
+    }
+}
+
+.project
+{
+    width: 100vw;
+    margin: 5vw 0 0 0;
+    .project_head
+    {
+        font-size: 5vw;
+    }
+    .project_desc
+    {
+        font-size: 4vw;
+    }
+}

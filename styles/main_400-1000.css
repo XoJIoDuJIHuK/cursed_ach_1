@@ -1,0 +1,128 @@
+.auto_cards {
+  width: 100vw;
+  height: 58.8888888889vw;
+  -ms-grid-columns: 33.333% 33.333% 33.333%;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+  -ms-grid-rows: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin-left: 0;
+  margin-right: 0;
+}.auto_cards > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}.auto_cards > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}.auto_cards > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}.auto_cards > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}.auto_cards > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}.auto_cards > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+.auto_cards .car_image {
+  width: 30vw;
+  height: 14.286vw;
+  margin: 1.6667vw 1.6667vw 1.6667vw 1.6667vw;
+}
+.auto_cards .car_name {
+  font-size: 2vw;
+  height: 2vw;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+}
+.auto_cards .car_desc {
+  font-size: 1.8vw;
+  height: 6vw;
+}
+
+h1 {
+  margin-left: 0;
+}
+
+.news {
+  -ms-grid-columns: 33.333vw 66.666vw;
+  grid-template-columns: 33.333vw 66.666vw;
+  -ms-grid-rows: 18.75vw 18.75vw;
+  grid-template-rows: 18.75vw 18.75vw;
+  width: 100vw;
+  height: 37.5vw;
+  margin: 1vw 0 0 0;
+}
+
+.news > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.news > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.news > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.news > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+.news .news1:hover > .shadow_block,
+.news .news2:hover > .shadow_block {
+  margin-top: 3.75vw;
+}
+.news .news3:hover > .shadow_block {
+  margin-top: 7.5vw;
+}
+.news .news1 {
+  background-image: url(../img/news1.jpg);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+.news .news2 {
+  background-image: url(../img/news2.jpg);
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+.news .news3 {
+  background-image: url(../img/news3.jpg);
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+.news .news_title1 {
+  font-size: 1.5vw;
+}
+.news .news_title2 {
+  font-size: 3vw;
+}
+
+.project {
+  width: 100vw;
+  margin: 5vw 0 0 0;
+}
+.project .project_head {
+  font-size: 5vw;
+}
+.project .project_desc {
+  font-size: 4vw;
+}

@@ -1,0 +1,191 @@
+$VERY_GRAY: #484848;
+form
+{
+	margin-top: 3vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-rows: 2vw repeat(15, 3vw) 2vw 4vw 3.5vw;
+    grid-template-columns: 10vw 30vw 5vw 40vw 5vw;
+    width: 90vw;
+    height: 56.5vw;
+    background-color: #E0E0E0;
+    input, textarea, select, h2, h3
+    {
+	    size: 30vw;
+	    max-height: 3vw;
+        max-width: 30vw;
+        font-size: 1.6vw;
+        line-height: 3vw;
+        margin: 0 0 0 0;
+        border-radius: 0.5vw;
+        border-width: 0;
+        padding-left: 1vw;
+    }
+    select
+    {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #select
+    {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .email
+    {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    #email
+    {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .name
+    {
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+    #name
+    {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+    .lastname
+    {
+        grid-column: 2/3;
+        grid-row: 9/10;
+    }
+    #lastname
+    {
+        grid-column: 2/3;
+        grid-row: 8/9;
+    }
+    .tel
+    {
+        grid-column: 2/3;
+        grid-row: 11/12;
+    }
+    #tel
+    {
+        grid-column: 2/3;
+        grid-row: 10/11;
+    }
+    .comment
+    {
+        grid-column: 2/3;
+        max-height: 9vw;
+        grid-row: 13/16;
+        resize: none;
+    }
+    #comment
+    {
+        grid-column: 2/3;
+        grid-row: 12/13;
+    }
+    h3
+    {
+        grid-column: 2/3;
+        grid-row: 16/17;
+    }
+    .form_button
+    {
+        grid-column: 2/3;
+        grid-row: 18/19;
+        width: 15vw;
+        margin-left: 7.5vw;
+        height: 4vw;
+        line-height: 0;
+        border-radius: 2vw;
+        background-color: $VERY_GRAY;
+        color: white;
+        font-size: 2vw;
+    }
+    span
+    {
+        color: red;
+    }
+    .form_text
+    {
+        font-size: 1.6vw;
+        grid-column: 4/5;
+        grid-row: 3/19;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 401px)
+{
+	form
+	{
+		margin: 0 0 0 0;
+		width: 100vw;
+		height: 75vw;
+		grid-template-rows: 2vw repeat(17, 4vw) 5vw;
+    	grid-template-columns: 10vw 40vw 5vw 40vw 5vw;
+		input, textarea, select, h2, h3
+    	{
+	    	size: 40vw;
+	    	max-height: 4vw;
+        	max-width: 40vw;
+        	font-size: 2vw;
+	        line-height: 4vw;
+            border-radius: 0.8vw;
+    	}
+		.comment
+	    {
+        	grid-column: 2/3;
+        	max-height: 16vw;
+        	grid-row: 13/16;
+    	}
+		.form_button
+		{
+			width: 20vw;
+        	margin-left: 10vw;
+		}
+		.form_text
+		{
+			font-size: 2vw;
+		}
+	}
+}
+
+@media (max-width: 400px)
+{
+	form
+	{
+		margin: 0 0 -3vw 0;
+		width: 100vw;
+		height: 265vw;
+		grid-template-rows: 2vw repeat(18, 10vw) auto 5vw;
+    	grid-template-columns: 5vw 90vw 5vw;
+		input, textarea, select, h2, h3
+    	{
+	    	size: 90vw;
+	    	max-height: 10vw;
+        	max-width: 90vw;
+        	font-size: 5vw;
+        	line-height: 10vw;
+            border-radius: 2vw;
+    	}
+		.comment
+	    {
+        	grid-column: 2/3;
+        	max-height: 30vw;
+        	grid-row: 13/16;
+    	}
+		.form_button
+		{
+			width: 45vw;
+        	margin-left: 22.5vw;
+        	height: 10vw;
+        	border-radius: 5vw;
+        	font-size: 5vw;
+		}
+		.form_text
+		{
+			font-size: 5vw;
+        	grid-column: 2/3;
+        	grid-row: 20/21;
+		}
+	}
+}

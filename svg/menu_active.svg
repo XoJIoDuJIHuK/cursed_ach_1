@@ -1,0 +1,6 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 120 120" xml:space="preserve">
+                    <line x1="40" y1="40" x2="80" y2="80" stroke="black" stroke-width="5"/>
+                    <line x1="40" y1="80" x2="80" y2="40" stroke="black" stroke-width="5"/>
+                    <circle r="40" cx="60" cy="60" fill="none" stroke="black" stroke-width="5"></circle>
+                </svg>

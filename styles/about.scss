@@ -1,0 +1,116 @@
+.main
+    {
+        background-color: white;
+        height: fit-content;
+        width: 90vw;
+        margin: 2vw 5vw 2vw 5vw;
+        ol
+        {
+            margin-left: 5vw;
+            margin-right: 5vw;
+            li
+            {
+                font-size: 1.8vw;
+                p
+                {
+                    margin-left: 0;
+                }
+            }
+            .inner_list
+            {
+                margin-left: 5vw;
+                list-style-type: disc;
+            }
+            li::marker, h2
+            {
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+        }
+        p
+        {
+            font-size: 1.8vw;
+            width: 80vw;
+            margin: 2vw 5vw 2vw 5vw;
+            height: min-content;
+            text-align: justify;
+            i
+            {
+                font-size: 1.6vw;
+            }
+        }
+        h2
+        {
+            margin-left: 0;
+        }
+        .about_filler
+        {
+            height: 2vw;
+        }
+        h1
+        {
+            margin-left: 5vw;
+            font-size: 6vw;
+        }
+        h1, h2
+        {
+            width: 80vw;
+        }
+    }
+@media (min-width: 401px) and (max-width: 1000px)
+{
+    .main
+    {
+        width: 100vw;
+        margin: 0 0 0 0;
+        ol
+        {
+            li
+            {
+                font-size: 3vw;
+            }
+        }
+        p
+        {
+            font-size: 3vw;
+            width: 90vw;
+            i
+            {
+                font-size: 2.5vw;
+            }
+        }
+        h1, h2
+        {
+            width: 90vw;
+        }
+    }
+}
+
+@media (max-width: 400px)
+{
+    .main
+    {
+        width: 100vw;
+        margin: 0 0 0 0;
+        ol
+        {
+            li
+            {
+                font-size: 3vw;
+            }
+        }
+        p
+        {
+            font-size: 3vw;
+            width: 90vw;
+            i
+            {
+                font-size: 2.5vw;
+            }
+        }
+        h1, h2
+        {
+            width: 90vw;
+        }
+    }
+}

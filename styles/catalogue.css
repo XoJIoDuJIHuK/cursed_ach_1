@@ -1,0 +1,283 @@
+@-webkit-keyframes px1001 {
+  0% {
+    margin-left: 100%;
+    z-index: 2;
+  }
+  20% {
+    margin-left: 0;
+  }
+  40% {
+    margin-left: -100%;
+    z-index: 2;
+  }
+  40.00001% {
+    z-index: 1;
+  }
+  99.9999% {
+    margin-left: 100%;
+    z-index: 1;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+@keyframes px1001 {
+  0% {
+    margin-left: 100%;
+    z-index: 2;
+  }
+  20% {
+    margin-left: 0;
+  }
+  40% {
+    margin-left: -100%;
+    z-index: 2;
+  }
+  40.00001% {
+    z-index: 1;
+  }
+  99.9999% {
+    margin-left: 100%;
+    z-index: 1;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+.auto_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 45vw 4vw auto 12vw;
+  grid-template-rows: 45vw 4vw auto 12vw;
+  margin: 3vw 5vw 10vw 5vw;
+  width: 90vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: white;
+}
+.auto_card .img {
+  display: -ms-grid;
+  display: grid;
+  overflow: hidden;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-size: 100%;
+  width: 84vw;
+  height: 40vw;
+  margin: 3vw 3vw 0 3vw;
+}
+.auto_card .img img {
+  -webkit-animation-name: px1001;
+          animation-name: px1001;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  margin-left: 100%;
+  -webkit-animation-timing-function: cubic-bezier(0.69, -0.01, 0.28, 0.99);
+          animation-timing-function: cubic-bezier(0.69, -0.01, 0.28, 0.99);
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.auto_card .img .img1 {
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+.auto_card .img .img2 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.auto_card .img .img3 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.auto_card .img .img4 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+.auto_card .img .img5 {
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+.auto_card .car_name {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  font-size: 4vw;
+  line-height: 4vw;
+  width: 84vw;
+  margin: 0 3vw 0 3vw;
+  text-align: left;
+}
+.auto_card .info {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  font-size: 2.5vw;
+  width: 84vw;
+  margin: 0 3vw 0 3vw;
+  text-align: left;
+}
+.auto_card .info .line {
+  margin: 2vw 0 2vw 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: -webkit-max-content auto -webkit-max-content;
+  -ms-grid-columns: max-content auto max-content;
+  grid-template-columns: -webkit-max-content auto -webkit-max-content;
+  grid-template-columns: max-content auto max-content;
+}
+.auto_card .info .line div {
+  max-height: 4vw;
+}
+.auto_card .info .line span {
+  font-size: 1.5vw;
+}
+.auto_card .info .line .dots {
+  overflow: hidden;
+}
+.auto_card .price_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+  grid-template-columns: 70% 30%;
+  width: 84vw;
+  height: 8vw;
+  margin: 0 3vw 0 3vw;
+}
+.auto_card .price_block .price {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  font-size: 8vw;
+}
+.auto_card .price_block .price:after {
+  content: "";
+  display: block;
+  position: relative;
+  left: 0vw;
+  bottom: 0vw;
+  height: 0.6vw;
+  width: 58vw;
+  background: #000000;
+}
+.auto_card .price_block a {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  border-radius: 5vw;
+}
+.auto_card .price_block a button {
+  width: 100%;
+  height: 100%;
+  background-color: #FF2A37;
+  font-size: 2.5vw;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border-radius: 5vw;
+  border-width: 0;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.auto_card .price_block a button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: red;
+}
+.auto_card .price_block button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+  .auto_card {
+    -ms-grid-rows: 47.857vw 7vw auto 12vw;
+    grid-template-rows: 47.857vw 7vw auto 12vw;
+    margin: 0 0 10vw 0;
+    width: 100vw;
+  }
+  .auto_card .img, .auto_card .car_name, .auto_card .info, .auto_card .price_block {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .auto_card .img {
+    height: 42.857vw;
+    margin-top: 5vw;
+  }
+  .auto_card .car_name {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+  .auto_card .info {
+    font-size: 3vw;
+  }
+  .auto_card .price_block {
+    height: 8vw;
+  }
+  .auto_card .price_block .price {
+    font-size: 8vw;
+  }
+  .auto_card .price_block .price:after {
+    width: 62vw;
+  }
+  .auto_card .price_block a {
+    border-radius: 3vw;
+  }
+  .auto_card .price_block a button {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 400px) {
+  .auto_card {
+    -ms-grid-rows: 47.857vw 7vw auto 12vw;
+    grid-template-rows: 47.857vw 7vw auto 12vw;
+    margin: 0 0 10vw 0;
+    width: 100vw;
+  }
+  .auto_card .img, .auto_card .car_name, .auto_card .info, .auto_card .price_block {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .auto_card .img {
+    height: 42.857vw;
+    margin-top: 5vw;
+  }
+  .auto_card .car_name {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+  .auto_card .info {
+    font-size: 3vw;
+  }
+  .auto_card .price_block {
+    height: 8vw;
+  }
+  .auto_card .price_block .price {
+    font-size: 8vw;
+  }
+  .auto_card .price_block .price:after {
+    width: 62vw;
+  }
+  .auto_card .price_block a {
+    border-radius: 3vw;
+  }
+  .auto_card .price_block a button {
+    font-size: 3vw;
+  }
+}

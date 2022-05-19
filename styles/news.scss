@@ -1,0 +1,129 @@
+.news_block
+{
+    background-color: white;
+    width: 90vw;
+    margin: 1vw 5vw 0 5vw;
+    height: auto;
+    display: grid;
+    h1
+    {
+        width: 80vw;
+        margin: 0 5vw 0 5vw;
+        line-height: 5vw;
+        font-size: 3vw;
+        font-weight: bold;
+        text-align: center;
+        grid-row: 1/2;
+    }
+    img
+    {
+        width: 80vw;
+        height: 45vw;
+        margin: 2vw 0 2vw 0;
+        background-size: 100%;
+    }
+    .meta
+    {
+        grid-row: 3/4;
+        display: grid;
+        width: 80vw;
+        margin: 1vw 5vw 0 5vw;
+        font-size: 1.5vw;
+        color: rgb(78, 78, 78);
+        grid-template-columns: 50% 50%;
+        .author
+        {
+            grid-column: 1/2;
+            text-align: left;
+        }
+        .date_time
+        {
+            grid-column: 2/3;
+            text-align: right;
+        }
+    }
+    .meta::before
+    {
+        content: "";
+        display: block;
+        position: relative;
+        background-color: rgb(78, 78, 78);
+        height: 0.15vw;
+        width: 80vw;
+        margin-top: -0.5vw;
+    }
+    .text
+    {
+        font-size: 1.8vw;
+        width: 80vw;
+        margin: 2vw 5vw 2vw 5vw;
+    }
+    li
+    {
+        margin-left: 2vw;
+    }
+}
+.news_block > img
+{
+    margin: 0 5vw 0 5vw;
+}
+
+@media (max-width: 400px)
+{
+    .news_block
+    {
+        width: 100vw;
+        margin: 0 0 0 0;
+        .header, .img, img, .meta, .meta::before, .text
+        {
+            width: 90vw;
+        }
+        .header
+        {
+            line-height: 10vw;
+            font-size: 4vw;
+        }
+        .img, img
+        {
+            height: 50vw;
+        }
+        .meta
+        {
+            font-size: 3vw;
+        }
+        .text
+        {
+            font-size: 3.6vw;
+        }
+    }
+}
+
+@media (min-width: 401px) and (max-width: 1000px)
+{
+    .news_block
+    {
+        width: 100vw;
+        margin: 0 0 0 0;
+        .header, .img, img, .meta, .meta::before, .text
+        {
+            width: 90vw;
+        }
+        .header
+        {
+            line-height: 8vw;
+            font-size: 3.5vw;
+        }
+        .img, img
+        {
+            height: 50vw;
+        }
+        .meta
+        {
+            font-size: 2vw;
+        }
+        .text
+        {
+            font-size: 2.4vw;
+        }
+    }
+}

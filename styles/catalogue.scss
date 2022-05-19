@@ -1,0 +1,276 @@
+$VERY_GRAY: #484848;
+$BUTTON_BACKGROUND: #FF2A37;
+$DUR: 15s;
+
+@keyframes px1001
+{
+    0% 
+    {
+        margin-left: 100%;
+        z-index: 2;
+    }
+    20%
+    {
+        margin-left: 0;
+    }
+    40%
+    {
+        margin-left: -100%;
+        z-index: 2;
+    }
+    40.00001%
+    {
+        z-index: 1;
+    }
+    99.9999%
+    {
+        margin-left: 100%;
+        z-index: 1;
+    }
+    100%
+    {
+        z-index: 2;
+    }
+}
+
+.auto_card
+{
+    display: grid;
+    grid-template-rows: 45vw 4vw auto 12vw;
+    margin: 3vw 5vw 10vw 5vw;
+    width: 90vw;
+    height: min-content;
+    background-color: white;
+    .img
+    {
+        display: grid;
+        overflow: hidden;
+        grid-row: 1/2;
+        background-size: 100%;
+        width: 84vw;
+        height: 40vw;
+        margin: 3vw 3vw 0 3vw;
+        img
+        {
+            animation-name: px1001;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+            margin-left: 100%;
+            animation-timing-function: cubic-bezier(.69,-0.01,.28,.99);
+            animation-duration: $DUR;
+            animation-iteration-count: infinite;
+        }
+        .img1
+        {
+            
+            animation-delay: -($DUR / 5);
+        }
+        .img2
+        {
+            animation-delay: $DUR * 0;
+        }
+        .img3
+        {
+            animation-delay: $DUR / 5;
+        }
+        .img4
+        {
+            animation-delay: $DUR / 5 * 2;
+        }
+        .img5
+        {
+            animation-delay: $DUR / 5 * 3;
+        }
+    }
+    .car_name
+    {
+        grid-row: 2/3;
+        font-size: 4vw;
+        line-height: 4vw;
+        width: 84vw;
+        margin: 0 3vw 0 3vw;
+        text-align: left;
+    }
+    .info
+    {
+        grid-row: 3/4;
+        font-size: 2.5vw;
+        width: 84vw;
+        margin: 0 3vw 0 3vw;
+        text-align: left;
+        .line
+        {
+            margin: 2vw 0 2vw 0;
+            display: grid;
+            grid-template-columns: max-content auto max-content;
+            div
+            {
+                max-height: 4vw;
+            }
+            span
+            {
+                font-size: 1.5vw;
+            }
+            .dots
+            {
+                overflow: hidden;
+            }
+        }
+    }
+    .price_block
+    {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        width: 84vw;
+        height: 8vw;
+        margin: 0 3vw 0 3vw;
+        .price
+        {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            font-size: 8vw;
+        }
+        .price:after
+        {
+            content: '';
+            display: block;
+            position: relative;
+            left: 0vw;
+            bottom: 0vw;
+            height: 0.6vw;
+            width: 58vw;
+            background: #000000;
+        }
+        a
+        {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            border-radius: 5vw;
+            button
+            {
+                width: 100%;
+                height: 100%;
+                background-color: $BUTTON_BACKGROUND;
+                font-size: 2.5vw;
+                font-family: "Inter", sans-serif;
+                color: white;
+                border-radius: 5vw;
+                border-width: 0;
+                transition-duration: 0.4s;
+            }
+            button:hover
+            {
+                transform: scale(1.1);
+                background-color: red;
+            }
+        }
+        button:hover
+        {
+            cursor: pointer;
+        }
+        
+    }
+}
+
+@media (min-width: 401px) and (max-width: 1000px)
+{
+    .auto_card
+    {
+        grid-template-rows: 47.857vw 7vw auto 12vw;
+        margin: 0 0 10vw 0;
+        width: 100vw;
+        .img, .car_name, .info, .price_block
+        {
+            width: 90vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        .img
+        {
+            height: 42.857vw;
+            margin-top: 5vw;
+        }
+        .car_name
+        {
+            font-size: 5vw;
+            line-height: 7vw;
+        }
+        .info
+        {
+            font-size: 3vw;
+        }
+        .price_block
+        {
+            height: 8vw;
+            .price
+            {
+                font-size: 8vw;
+            }
+            .price:after
+            {
+                width: 62vw;
+            }
+            a
+            {
+                border-radius: 3vw;
+                button
+                {
+                    font-size: 3vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px)
+{
+    .auto_card
+    {
+        grid-template-rows: 47.857vw 7vw auto 12vw;
+        margin: 0 0 10vw 0;
+        width: 100vw;
+        .img, .car_name, .info, .price_block
+        {
+            width: 90vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        .img
+        {
+            height: 42.857vw;
+            margin-top: 5vw;
+        }
+        .car_name
+        {
+            font-size: 5vw;
+            line-height: 7vw;
+        }
+        .info
+        {
+            font-size: 3vw;
+        }
+        .price_block
+        {
+            height: 8vw;
+            .price
+            {
+                font-size: 8vw;
+            }
+            .price:after
+            {
+                width: 62vw;
+            }
+            a
+            {
+                border-radius: 3vw;
+                button
+                {
+                    font-size: 3vw;
+                }
+            }
+        }
+    }
+}
